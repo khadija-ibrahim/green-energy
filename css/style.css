@@ -1,0 +1,238 @@
+/*
+Colour Scheme:
+Whitesmoke: #f5f5f5
+White: #ffffff
+Black: #000000
+Aqua: #00ffff
+Grey: #808080
+*/
+
+{box-sizing: border-box;}
+html {font: normal 100%/1.5 'Roboto', 'Verdana', 'Arial', sans-serif;}
+
+.masthead {
+    position: relative;
+}
+
+.port-phone {
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.desktop {
+    display: none;
+}
+
+#controls {
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+#controls button {
+	padding: 0.5rem 1rem;
+	border: none;
+	background-color: black;
+    border-bottom-style: solid;
+    border-bottom-color: whitesmoke;
+    border-bottom-width: thick;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+}
+
+.pic {
+    width: 90%;
+}
+
+h2 {
+    font-family: 'Roboto Slab', 'Georgia', 'Times New Roman', serif;
+    color: whitesmoke;
+    margin-left: 1rem;
+    margin-top:  2rem; 
+}
+
+#controls img {
+    width: 70%;
+}
+
+p {
+    color: whitesmoke;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-size: 0.75rem;
+    line-height: 1.4rem;
+}
+
+#controls button:hover {
+    border-bottom-style: solid;
+    border-bottom-color: aqua;
+    border-bottom-width: thick;
+}
+
+
+
+footer {
+    margin-top: 1rem;
+    border-top-style: solid;
+    border-top-color: grey;
+    border-top-width: thin;
+}
+
+#social-media {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+}
+
+#facebook img {
+    width: 5%;
+    margin-right: 0.3rem;
+}
+
+#youtube img{
+    width: 5.3%;
+    margin-right: 0.3rem;
+}
+
+#twitter img{
+    width: 5%;
+}
+
+body {
+    background-color: black;
+}
+
+h1 {
+    position: absolute;
+    color: whitesmoke;
+    font-family: 'Roboto Slab', 'Georgia', 'Times New Roman', serif;
+    font-style: italic;
+    margin-left: 1rem;
+}
+
+.nav-bar{
+    position: absolute;
+    top: 6rem;
+}
+
+
+.nav-bar a {
+    text-decoration: none;
+    color: whitesmoke;
+    border-color: whitesmoke;
+    font-size: 0.75rem; 
+}
+
+
+.nav-bar li {
+    list-style: none;
+    margin-bottom: 1rem;
+    margin-left: 1rem;  
+}
+
+@media only screen and (min-width: 35rem) {
+    
+.port-phone {
+    display: none;
+}
+
+.desktop {
+    display: block;
+    width: 100%;
+    margin-bottom: 1rem;  
+}
+    
+h1 {
+   font-size: 4rem;
+   margin-left: 10rem;
+}
+
+.nav-bar {
+    display: flex;
+    top: 12rem;
+    left: 8rem;
+    
+}
+    
+#active {
+    width: 6%;
+}
+
+.box {
+    position: relative;    
+}
+    
+.box img {
+    width: 40%; 
+    margin-left: 6rem;
+}
+
+ 
+.nav-bar a {
+    text-decoration: none;
+    color: whitesmoke;
+    border-color: whitesmoke;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 0.1rem;
+    border-style: solid;
+    font-size: 1rem;
+    border-width: thin;
+}
+    
+.nav-bar li {
+    
+    margin-left: 2rem; 
+    
+}
+    
+#controls  {
+    margin-left: 10rem;
+}
+    
+h2 {
+    margin-left: 10rem;
+    font-size: 2.4rem;
+    margin-top: 4rem;
+}
+    
+p {
+    position: absolute;
+    margin-left: 38rem;
+    margin-right: 8rem;
+    top: 12rem;
+    font-size: 1rem;
+    line-height: 1.4rem;
+}
+
+
+    
+#social-media {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 10rem;
+}
+    
+#facebook img {
+    width: 2%;
+    margin-right: 1rem;
+}
+
+#youtube img{
+    width: 2.3%;
+    margin-right: 1rem;
+}
+
+#twitter img{
+    width: 2%;
+}
+    
+
+    
+    
+/*Desktop and Tablet*/
+}
